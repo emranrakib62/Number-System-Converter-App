@@ -106,6 +106,16 @@
                app:neumorph_shadowColorDark="@color/orange_light"
                app:neumorph_shadowColorLight="@color/colorAccent">
 
+               <TextView
+                   android:layout_gravity="center"
+                   android:gravity="center"
+                   android:textStyle="bold"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Calculate"
+                   android:textSize="23sp"
+                   android:textColor="@android:color/black" />
+           </soup.neumorphism.NeumorphCardView>
 
 
        </LinearLayout>
