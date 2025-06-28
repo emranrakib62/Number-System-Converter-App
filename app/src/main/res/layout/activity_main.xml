@@ -88,18 +88,23 @@
                android:background="@drawable/focus_view"
                android:drawableLeft="@drawable/hexa_left"/>
 
-           <Button
-               android:id="@+id/button"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:textAllCaps="true"
-               android:text="Clear"
+           <soup.neumorphism.NeumorphCardView
                android:clickable="true"
-               android:textStyle="bold"
-               android:layout_marginTop="35dp"
-               android:textAppearance="?android:textAppearanceLarge"
-               android:background="@drawable/button_design"/>
-
+               android:focusable="true"
+               android:layout_marginTop="50dp"
+               android:id="@+id/submitButton"
+               android:layout_width="260dp"
+               android:layout_gravity="center"
+               android:layout_height="wrap_content"
+               android:padding="16dp"
+               app:neumorph_lightSource="leftTop"
+               app:neumorph_shadowElevation="3dp"
+               app:neumorph_shapeType="flat"
+               app:neumorph_backgroundColor="@color/white"
+               app:neumorph_cornerFamily="rounded"
+               app:neumorph_cornerSize="16dp"
+               app:neumorph_shadowColorDark="@color/orange_light"
+               app:neumorph_shadowColorLight="@color/coloracent"/>
 
 
 
