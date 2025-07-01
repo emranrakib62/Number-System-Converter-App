@@ -113,7 +113,7 @@
                    android:textStyle="bold"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
-                   android:text="Calculate"
+                   android:text="CLEAR"
                    android:textSize="23sp"
                    android:textColor="@android:color/black" />
            </soup.neumorphism.NeumorphCardView>
