@@ -104,8 +104,8 @@
                app:neumorph_backgroundColor="@color/white"
                app:neumorph_cornerFamily="rounded"
                app:neumorph_cornerSize="16dp"
-               app:neumorph_shadowColorDark="@color/orange_light"
-               app:neumorph_shadowColorLight="@color/colorAccent">
+               app:neumorph_shadowColorDark="@color/black"
+               app:neumorph_shadowColorLight="#ED4707">
 
                <TextView
                    android:layout_gravity="center"
