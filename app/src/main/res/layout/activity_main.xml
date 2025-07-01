@@ -91,6 +91,7 @@
            <soup.neumorphism.NeumorphCardView
                android:clickable="true"
                android:focusable="true"
+            android:backgroundTint="@color/black"
                android:layout_marginTop="50dp"
                android:id="@+id/submitButton"
                android:layout_width="260dp"

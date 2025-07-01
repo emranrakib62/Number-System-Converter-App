@@ -20,6 +20,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import soup.neumorphism.NeumorphCardView;
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -30,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         private EditText binary;
         private EditText octal;
         private EditText hexa;
-        private Button button;
+    private NeumorphCardView submitButton;
         private String value;
         private TextWatcher textWatcher;
         Animation animation;
@@ -46,11 +48,11 @@ public class MainActivity extends AppCompatActivity {
             binary = findViewById(R.id.binary);
             octal = findViewById(R.id.octal);
             hexa = findViewById(R.id.hexa);
-            button = findViewById(R.id.button);
+            submitButton = findViewById(R.id.submitButton);
 
 
 
-            button.setOnClickListener(new View.OnClickListener() {
+            submitButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     clearFields();
