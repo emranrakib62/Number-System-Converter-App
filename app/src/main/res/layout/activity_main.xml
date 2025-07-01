@@ -99,13 +99,13 @@
                android:layout_height="wrap_content"
                android:padding="16dp"
                app:neumorph_lightSource="leftTop"
-               app:neumorph_shadowElevation="3dp"
+               app:neumorph_shadowElevation="2dp"
                app:neumorph_shapeType="flat"
                app:neumorph_backgroundColor="@color/white"
                app:neumorph_cornerFamily="rounded"
-               app:neumorph_cornerSize="16dp"
-               app:neumorph_shadowColorDark="@color/black"
-               app:neumorph_shadowColorLight="#ED4707">
+               app:neumorph_cornerSize="10dp"
+               app:neumorph_shadowColorDark="@color/dark_grey"
+               app:neumorph_shadowColorLight="#46493E">
 
                <TextView
                    android:layout_gravity="center"
